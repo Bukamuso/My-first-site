@@ -1,45 +1,49 @@
-h1{
+/* Headings */
+h1 {
     color: #2296C7;
     font-size: 40px;
     font-family: Helvetica, sans-serif;
     text-align: center;
 }
 
-h2{
+h2, h3, h4, h5, h6 {
     color: green;
     font-family: Helvetica, sans-serif;
-    text-align: right;
+    text-align: center;
 }
 
-h3{
-    font-family: Comic Sans, Comic Sans MS, cursive;
-}
-
-p{
+/* Paragraphs */
+p {
     font-weight: 800;
-    text-decoration: line-through;
+    text-decoration: none; /* removes the line-through */
+    text-align: center;
 }
 
-table{
+/* Table styles for other pages */
+table {
     font-family: Helvetica, sans-serif;
     border-collapse: collapse;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #2695a6;
+    border: 1px solid #2695a6;
 }
 
-
-
-th{
+th {
     font-weight: 800;
     background-color: #2695a6;
     color: #ffffff;
 }
 
-tr.alt td{
+tr.alt td {
     background-color: #9aeffc;
 }
 
-ul{
+/* List styling */
+ul {
     list-style: circle;
+}
+
+/* Make images and links block-level to space them out */
+img, a {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
 }
