@@ -47,3 +47,19 @@ img, a {
     margin: 10px auto;
     text-align: center;
 }
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: 880;
+    background-color: beige;
+    color: aquamarine;
+    text-align: center;
+}
