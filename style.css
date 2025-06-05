@@ -19,35 +19,6 @@ p {
     text-align: center;
 }
 
-/* Table styles for other pages */
-table {
-    font-family: Helvetica, sans-serif;
-    border-collapse: collapse;
-    border: 1px solid #2695a6;
-}
-
-th {
-    font-weight: 800;
-    background-color: #2695a6;
-    color: #ffffff;
-}
-
-tr.alt td {
-    background-color: #9aeffc;
-}
-
-/* List styling */
-ul {
-    list-style: circle;
-}
-
-/* Make images and links block-level to space them out */
-img, a {
-    display: block;
-    margin: 10px auto;
-    text-align: center;
-}
-
 table {
     border-collapse: collapse;
     width: 60%;
@@ -56,10 +27,25 @@ table {
 }
 
 th, td {
-    border: 1px solid black;
+    border: 1px solid #ccc;
     padding: 8px;
-    font-weight: 880;
-    background-color: beige;
-    color: aquamarine;
+    font-weight: 600;
     text-align: center;
 }
+
+/* Header style */
+th {
+    background-color: #4da6ff;  /* Soft blue */
+    color: white;
+}
+
+/* Alternate row background for better readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2;  /* Light gray */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;  /* White */
+}
+
+
