@@ -65,7 +65,14 @@ ol {
 }
 
 a{
+    font-family: Helvetica, sans-serif;
     text-decoration: none;
     background-color: aquamarine;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: aqua;
+    color: #ffffff;
 }
 
