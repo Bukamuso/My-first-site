@@ -1,4 +1,3 @@
-/* Headings */
 h1 {
     color: #2296C7;
     font-size: 40px;
@@ -12,10 +11,9 @@ h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-/* Paragraphs */
 p {
     font-weight: 800;
-    text-decoration: none; /* removes the line-through */
+    text-decoration: none;
     text-align: center;
 }
 
@@ -33,19 +31,17 @@ th, td {
     text-align: center;
 }
 
-/* Header style */
 th {
-    background-color: #4da6ff;  /* Soft blue */
+    background-color: #4da6ff;
     color: white;
 }
 
-/* Alternate row background for better readability */
 tr:nth-child(even) {
-    background-color: #f2f2f2;  /* Light gray */
+    background-color: #f2f2f2;
 }
 
 tr:nth-child(odd) {
-    background-color: #ffffff;  /* White */
+    background-color: #ffffff; 
 }
 
 ul {
